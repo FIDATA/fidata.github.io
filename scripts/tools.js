@@ -1,2 +1,0 @@
-// @license Copyright © 2014  Basil Peace
-$(document).ready(function(){with($("td.BlockTitle"))click(function(){var n=$(this.parentNode.parentNode.parentNode).find("tbody");"none"==$(n).css("display")?$(n).css("display","block"):$(n).css("display","none")})});
