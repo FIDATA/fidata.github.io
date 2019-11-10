@@ -1,7 +1,0 @@
-﻿<div class="menuItem">
-	<% if @item == @menuItem %>
-		<span <% if @item[:lang] != @menuItem[:lang] %>lang="<%= @menuItem[:lang] %>"<% end %>><%= @menuItem[:title] %></span>
-	<% else %>
-		<a href="<%= @menuItem.path %>" <% if @item[:lang] != @menuItem[:lang] %>lang="<%= @menuItem[:lang] %>"<% end %>><%= @menuItem[:title] %></a>
-	<% end %>
-</div>
